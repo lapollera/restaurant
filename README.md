@@ -35,26 +35,24 @@ yarn dev
 
 ó
 
-npm run start
+npm run dev
 ```
 
-## Despliegue
+## Despliegue en Git Hub Pages
 
+Crea el build con el proyecto comprimido.
 ```  
--
-
-ó
-
 npm run build
 ```
 
-## Testeo
-
+Previsualiza localmente la carpeta dist creada con el build
 ```  
--
-
-ó
-
-npm run test
+npm run preview
 ```
+
+Hace deploy de la carpeta dist en GitHub Pages
+```  
+npm run deploy
+```
+
 
