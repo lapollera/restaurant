@@ -9,7 +9,7 @@ export const ImageFullScreen = ( { closeModal, imageSelected }: { closeModal: ()
                     onClick={ () =>  closeModal()  }
                     >X
                 </button>
-                <img src={"/" + imageSelected} alt="vite" className="mx-auto" />
+                <img src={imageSelected} alt="vite" className="mx-auto" />
             </div>
     )
 }

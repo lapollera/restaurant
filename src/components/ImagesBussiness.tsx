@@ -13,7 +13,7 @@ export const ImagesBussiness = ( { setImage } : { setImage: (value:string) => vo
             <div className="w-full">
                 { 
                     imageList.map( (image: string, index: number) => {
-                        return <img key={index} src={"/" + image} alt="vite" className="w-11/12 sm:w-[500px] lg:w-[600px] mx-auto mb-[20px] rounded-xl cursor-pointer" onClick={() => setImage(image) }/>
+                        return <img key={index} src={image} alt="vite" className="w-11/12 sm:w-[500px] lg:w-[600px] mx-auto mb-[20px] rounded-xl cursor-pointer" onClick={() => setImage(image) }/>
                     })
                 }
             </div>
